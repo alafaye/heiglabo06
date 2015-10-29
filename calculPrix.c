@@ -2,7 +2,7 @@
  * Auteur  : Alexandre Lafaye
  * Date    : 08.10.2015
  *
- * But     :  Labo05: Calcul des angles à partir des côtés d'un triangle.
+ * But     :  Labo05: Calcul d'un montant d'une commande de pieces electroniques.
  *
  *
  * Remarque(s) : 
@@ -34,7 +34,7 @@ int main(void)
     double prix_diode=0, prix_condo=0, prix_resi=0;
 
     //Entrée des valeurs par l'utilisateur.
-    printf("Pour effectuer une commande, entrez les quantité à chaque étape.\n");
+    printf("Pour effectuer une commande, entrez les quantités à chaque étape.\n");
     printf("Longueur du circuit demandé: ");
     scanf("%lf", &longueur_circuit);
     fflush(stdin);
