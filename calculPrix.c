@@ -21,6 +21,7 @@
 
 int main(void)
 {
+    printf("Programme calculant un prix total à partir d'une liste de composants.\n");
     //Les termes de petit/grand sont en rapport avec la quantité.
     const double PRIX_PETIT_CIRCUIT=.15, PRIX_GRAND_CIRCUIT=.12;
     const double PRIX_DIODE_PETIT=1, PRIX_DIODE_MOYEN=.8, PRIX_DIODE_GRAND=.7;
